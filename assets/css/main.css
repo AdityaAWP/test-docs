@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+/* Style for images inside markdown content */
+.prose img {
+    @apply rounded-lg shadow-md mx-auto my-8; /* Centers image with margin */
+    max-width: 30%;
+    height: auto;
+  }
+  
+  /* Optional: Add hover effect */
+  .prose img:hover {
+    @apply shadow-lg transition-shadow duration-300;
+  }
+  
+  /* Optional: Add caption styling if you use image alt text */
+  .prose img + em {
+    @apply block text-center text-gray-600 mt-2 text-sm;
+  }
