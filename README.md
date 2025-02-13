@@ -1,6 +1,10 @@
-# DOCS ANJAY
+# Nyoba
 
-Lagi Nyoba Nuxt Content Buat Shortcut Seacrh Ctrl + s yee.
+Lagi Nyoba Nuxt Content Buat Shortcut Search
+
+```
+Ctrl + s.
+```
 
 ## Setup
 
@@ -71,4 +75,3 @@ yarn preview
 # bun
 bun run preview
 ```
-
